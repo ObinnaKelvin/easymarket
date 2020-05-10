@@ -1,0 +1,28 @@
+.hoverButton {
+    color: white !important;
+        /* background: #E60D98 !important; */
+    cursor: pointer !important;
+    background: rgba(248,80,50,1) !important;
+    background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(241,111,92,1) 1%, rgba(238,86,107,1) 23%, rgba(230,13,152,1) 87%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(240,47,23,1)), color-stop(0%, rgba(246,41,12,1)), color-stop(1%, rgba(241,111,92,1)), color-stop(23%, rgba(238,86,107,1)), color-stop(87%, rgba(230,13,152,1))) !important;
+    background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(241,111,92,1) 1%, rgba(238,86,107,1) 23%, rgba(230,13,152,1) 87%) !important;
+    background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(241,111,92,1) 1%, rgba(238,86,107,1) 23%, rgba(230,13,152,1) 87%) !important;
+    background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(241,111,92,1) 1%, rgba(238,86,107,1) 23%, rgba(230,13,152,1) 87%) !important;
+    background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 0%, rgba(246,41,12,1) 0%, rgba(241,111,92,1) 1%, rgba(238,86,107,1) 23%, rgba(230,13,152,1) 87%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e60d98', GradientType=1 ) !important;
+    height: 80px !important;
+    padding-top: -10px !important;
+    border: none !important;
+    border-radius: 20px !important;
+    -webkit-box-shadow: 2px 4px 14px 2px rgba(0,0,0,0.26);
+    -moz-box-shadow: 2px 4px 14px 2px rgba(0,0,0,0.26);
+    box-shadow: 2px 4px 14px 2px rgba(0,0,0,0.26);
+}
+
+/* .hoverButton:hover {
+    color: #E60D98 !important;
+    background-color: white !important;
+    height: 60px !important;
+    transition-duration: 1s;
+} */
+    

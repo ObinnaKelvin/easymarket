@@ -1,0 +1,13 @@
+.Card {
+    border-style: none !important;
+    background-color:rgba(158, 158, 158, 0.1) !important;
+}
+.CardImage {
+    padding-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.Jumbotron {
+    background-color: white;
+}

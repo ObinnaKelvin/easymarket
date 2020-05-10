@@ -1,0 +1,14 @@
+.banner {
+    background: url(../img/bg1.jpg);
+    min-height: 91vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 200px;
+    transition-duration: 5s;
+    /* color: purple; */
+}
+
+.banner-text {
+    transition-duration: 5s;
+    color: "#E60D98";
+}
