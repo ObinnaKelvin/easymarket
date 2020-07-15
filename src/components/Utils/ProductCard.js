@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from 'antd';
 import "../../styles/ProductCard.css"
+// import { Card } from 'antd';
 
-const { Meta } = Card;
+// const { Meta } = Card;
 function ProductCard(props) {
     return (
         <div>

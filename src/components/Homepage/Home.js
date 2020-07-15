@@ -14,10 +14,10 @@ class Home extends Component {
         return (
             <div>
                 <Hero />
-                <Divider orientation="left" style={{ color: '#333', fontWeight: 'normal' }}>
+                {/* <Divider orientation="left" style={{ color: '#333', fontWeight: 'normal' }}>
                     Fill rest 
-                </Divider>
-                
+                </Divider> */}
+                <div class="miniSpaceSmall"></div>
                 <Row>
                     <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                         <AllCategories />
@@ -35,6 +35,7 @@ class Home extends Component {
                         <FeaturedProducts />
                     </Col>
                 </Row>
+                <div class="miniSpaceSmall"></div>
                 {/* <Row>
                     <Col flex="auto">
                         <SideMenu />

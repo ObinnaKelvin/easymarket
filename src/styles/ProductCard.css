@@ -1,7 +1,8 @@
 .card {
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+    border-radius: 10px;
+    width: auto;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: pink;
 }
