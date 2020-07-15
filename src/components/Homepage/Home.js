@@ -36,6 +36,7 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <div class="miniSpaceSmall"></div>
+                <div class="miniSpaceSmall"></div>
                 {/* <Row>
                     <Col flex="auto">
                         <SideMenu />
