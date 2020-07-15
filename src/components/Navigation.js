@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../src/logo2.svg';
+import { Link } from 'react-router-dom';
 import {Nav, Navbar} from 'react-bootstrap';
 //import NavigationBar from '../styles/Navigation.css';
 
@@ -21,7 +22,8 @@ function Navigation() {
         //bg="white" variant="white" 
         style={navbar}
         >
-                <Navbar.Brand href="#home" style={navbarBrand}>
+                <Navbar.Brand>
+                <Link to="/" className="" style={navbarBrand}>
                 <img
                     alt=""
                     src={logo}
@@ -30,6 +32,8 @@ function Navigation() {
                     className="d-inline-block align-top"
                 />
                 Easy Market
+                </Link>
+
                 {/* {' Easy Market'} */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
@@ -46,10 +50,20 @@ function Navigation() {
                     </NavDropdown>
                     </Nav> */}
                     <Nav>
-                    <Nav.Link href="#deets" style={navbarText}>Contact Us</Nav.Link>
+                        <li className="navbar-item">
+                            <Link to="/about" className="nav-link">About</Link>
+                        </li>
+                        <li className="navbar-item">
+                            <Link to="/" className="nav-link">Become a Supplier</Link>
+                        </li>
+                        <li className="navbar-item">
+                            <Link to="/ContactUs" className="nav-link">Contact Us</Link>
+                        </li>
+
+                    {/* <Nav.Link href="#deets" style={navbarText}>Contact Us</Nav.Link>
                     <Nav.Link eventKey={2} href="#memes">
                     Become a Supplier
-                    </Nav.Link>
+                    </Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>

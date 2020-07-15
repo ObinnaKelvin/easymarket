@@ -1,9 +1,9 @@
 import React from 'react';
 import {Jumbotron, Container, Card, CardDeck} from 'react-bootstrap';
-import image1 from '../img/cloud.svg';
-import image2 from '../img/network.svg';
-import image3 from '../img/trolley.svg';
-import '../styles/Section1.css';
+import image1 from '../../img/cloud.svg';
+import image2 from '../../img/network.svg';
+import image3 from '../../img/trolley.svg';
+import '../../styles/Section1.css';
 
 const jumbotron = {
     backgroundColor: "rgba(158, 158, 158, 0.1)",

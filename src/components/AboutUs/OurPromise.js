@@ -1,16 +1,16 @@
 import React from 'react';
 import {Jumbotron, Container, Row, Col} from 'react-bootstrap';
-import image1 from '../img/security1.svg';
-import image2 from '../img/security2.svg';
-import image3 from '../img/process.svg';
-import image4 from '../img/hacker.svg';
-import image5 from '../img/docs.svg';
-import image6 from '../img/process.svg';
-import image7 from '../img/mobileapp.svg';
-import image8 from '../img/mobileapp2.svg';
-import image9 from '../img/solution.svg';
-import image10 from '../img/joy.svg';
-import '../styles/OurPromise.css';
+import image1 from '../../img/security1.svg';
+import image2 from '../../img/security2.svg';
+import image3 from '../../img/process.svg';
+import image4 from '../../img/hacker.svg';
+import image5 from '../../img/docs.svg';
+import image6 from '../../img/process.svg';
+import image7 from '../../img/mobileapp.svg';
+import image8 from '../../img/mobileapp2.svg';
+import image9 from '../../img/solution.svg';
+import image10 from '../../img/joy.svg';
+import '../../styles/OurPromise.css';
 
 const jumbotron = {
     backgroundColor: "white",

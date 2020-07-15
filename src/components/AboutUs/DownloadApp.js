@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Container, Row, Col, Button, ButtonToolbar} from 'react-bootstrap';
-import image1 from '../img/google-play-badge.png';
-import image2 from '../img/mobileapp2.svg';
-import '../styles/DownloadApp.css'
+import image1 from '../../img/google-play-badge.png';
+import image2 from '../../img/mobileapp2.svg';
+import '../../styles/DownloadApp.css'
 
 const imageDimension = {
     marginTop: "-50px",

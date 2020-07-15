@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import Navigation from '../components/Navigation'
-import '../styles/Hero.css'
+import '../../styles/Hero.css'
 
 const mainText = {
     transitionDuration: "5s",
@@ -17,7 +16,6 @@ const subText = {
 function Hero() {
     return (
         <div>
-            <Navigation />
             <section className="banner">
                 <Container>
                 <Row>

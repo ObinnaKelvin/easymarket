@@ -1,0 +1,20 @@
+.circleHolder {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #fafafa;
+    margin: auto;
+    padding-top: 15px;
+    align-content: center;
+}
+
+.circleHolder > img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.holder {
+    /* margin-left: 150px;  */
+    text-align: center;
+}
